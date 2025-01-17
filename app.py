@@ -36,7 +36,7 @@ video_url = st.text_input("", placeholder="https://www.youtube.com/watch?v=...")
 # Model selection
 model_option = st.selectbox(
     "Select Ollama Model",
-    ["llama2", "mistral", "gemma", "neural-chat", "llama3.2"],
+    ["llama3.2", "mistral", "gemma", "neural-chat"],
     index=0
 )
 

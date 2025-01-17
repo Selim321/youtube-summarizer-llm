@@ -5,7 +5,7 @@ from ollama import ChatResponse
 
 def summarize_with_ollama(text, model="llama3.2"):
     
-    prompt = f"""Please provide a concise summary of the following video transcript. 
+    prompt = f"""Please provide a concise summary of the following video transcript.. 
     Focus on the main points and key takeaways:
 
     {text}
