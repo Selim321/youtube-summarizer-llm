@@ -66,11 +66,6 @@ streamlit run app.py
 - Processing time depends on the length of the video and the chosen model
 - Some videos might have transcripts disabled by content creators
 
-## Contributing
-
-Feel free to open issues or submit pull requests with improvements.
-
-
 ## Acknowledgments
 
 - [Streamlit](https://streamlit.io/) for the web interface
