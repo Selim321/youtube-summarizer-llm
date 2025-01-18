@@ -70,9 +70,6 @@ streamlit run app.py
 
 Feel free to open issues or submit pull requests with improvements.
 
-## License
-
-[Your chosen license]
 
 ## Acknowledgments
 
