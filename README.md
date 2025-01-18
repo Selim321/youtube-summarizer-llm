@@ -1,6 +1,6 @@
 # YouTube Video Summarizer
 
-A Streamlit application that generates summaries of YouTube videos using the power of Large Language Models through Ollama. The app extracts transcripts from YouTube videos and processes them to create concise, structured summaries.
+A Streamlit application that generates summaries of YouTube videos using the power of llama3.2 and Ollama. The app extracts transcripts from YouTube videos and processes them to create concise, structured summaries.
 
 ## Features
 
@@ -20,20 +20,20 @@ A Streamlit application that generates summaries of YouTube videos using the pow
 
 1. Clone the repository:
 ```bash
-git clone <your-repository-url>
-cd youtube-summarizer
+git clone https://github.com/Selim321/youtube-summarizer-llm.git
+cd youtube-summarizer-llm
 ```
 
 2. Install the required dependencies:
 ```bash
-pip install streamlit youtube-transcript-api requests
+pip install streamlit youtube-transcript-api
 ```
 
 3. Make sure Ollama is installed and running with your preferred models:
 ```bash
 # Install Ollama from: https://ollama.ai/
 # Pull your preferred model, for example:
-ollama pull llama2
+ollama pull llama3.2
 ```
 
 ## Usage
